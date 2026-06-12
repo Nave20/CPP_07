@@ -6,7 +6,7 @@ SRC_DIR = .
 INC_DIR = include
 
 SRC_FILES = src/main.cpp
-INC_FILES = inc/templates.hpp
+INC_FILES = inc/whatever.hpp
 
 OBJS = $(addprefix $(OBJ_DIR),$(SRC_FILES:.cpp=.o))
 DEPS = $(OBJS:.o=.d)
