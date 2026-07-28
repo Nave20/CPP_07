@@ -23,7 +23,7 @@ class Array {
 		{
 			_array = new T[_size];
 			for (size_t i = 0; i < _size; i++)
-				{
+			{
 				_array[i] = copy._array[i];
 			}
 		};
