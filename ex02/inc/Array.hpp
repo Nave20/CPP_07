@@ -44,12 +44,12 @@ class Array {
 		}
 		T& operator[](unsigned int index) {
 			if (index >= _size)
-				throw std::out_of_range("Index out of bounds");
+				throw std::out_of_range("Out of bounds");
 			return (_array[index]);
 		};
 		const T& operator[](unsigned int index) const {
 			if (index >= _size)
-				throw std::out_of_range("Index out of bounds");
+				throw std::out_of_range("Out of bounds");
 			return (_array[index]);
 		};
 	private:
