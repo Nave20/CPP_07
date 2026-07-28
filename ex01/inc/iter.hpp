@@ -28,16 +28,16 @@ template <typename T>
 void print(T a) { std::cout << a << std::endl; }
 
 template <typename T>
-void iter(T* tab, const size_t size, void (*func)(T&))
+void iter(T* tab, const int size, void (*func)(T&))
 {
-	for (size_t i = 0; i < size; i++)
+	for (int i = 0; i < size; i++)
 		func(tab[i]);
 }
 
 template <typename T>
-void print_tab(T* tab, const size_t size)
+void print_tab(T* tab, const int size)
 {
-	for (size_t i = 0; i < size; i++)
+	for (int i = 0; i < size; i++)
 		std::cout << tab[i] << " ";
 	std::cout << std::endl;
 }
