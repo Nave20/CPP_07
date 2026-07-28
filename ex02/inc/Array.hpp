@@ -53,6 +53,6 @@ class Array {
 			return (_array[index]);
 		};
 	private:
-		T*				_array;
 		unsigned int	_size;
+		T*				_array;
 };
