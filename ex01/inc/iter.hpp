@@ -27,8 +27,8 @@ void double_func(T& a) { a*=2;}
 template <typename T>
 void print(T a) { std::cout << a << std::endl; }
 
-template <typename T>
-void iter(T* tab, const int size, void (*func)(T&))
+template <typename T, typename U>
+void iter(T* tab, const int size, void (*func)(U&))
 {
 	for (int i = 0; i < size; i++)
 		func(tab[i]);
