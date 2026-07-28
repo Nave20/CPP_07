@@ -58,6 +58,6 @@ class Array {
 		};
 
 	private:
-		unsigned int	_size;
 		T*				_array;
+		unsigned int	_size;
 };

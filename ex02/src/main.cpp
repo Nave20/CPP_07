@@ -14,6 +14,9 @@
 #include <string>
 #include "../inc/Array.hpp"
 
+#include <iostream>
+#include <string>
+
 int main()
 {
     std::cout << "========== Default constructor ==========\n";
